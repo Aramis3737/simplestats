@@ -11,7 +11,11 @@ def mean(vals):
 def median(vals):
     vals.sort()
     z = len(vals)
+<<<<<<< HEAD
     name = z / 2
+=======
+    list = z / 2
+>>>>>>> 550973783198e287da94f03b6b03070998838485
     if z % 2 == 0:
        return mean([vals[index], vals[index - 1]])
     else:
